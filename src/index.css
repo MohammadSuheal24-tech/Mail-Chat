@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom WhatsApp style scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.45);
+}
+
+/* WhatsApp Wallpaper Presets */
+.wallpaper-default-doodle {
+  background-color: #efeae2;
+  background-image: radial-gradient(#00a884 0.75px, transparent 0.75px), radial-gradient(#000000 0.5px, #efeae2 0.5px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+.dark .wallpaper-default-doodle {
+  background-color: #0b141a;
+  background-image: radial-gradient(#00a884 0.75px, transparent 0.75px), radial-gradient(#ffffff 0.5px, #0b141a 0.5px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.wallpaper-subtle-dots {
+  background-color: #eaf5ee;
+  background-image: radial-gradient(#10b981 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.dark .wallpaper-subtle-dots {
+  background-color: #0f1d18;
+  background-image: radial-gradient(#059669 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.wallpaper-grid-matrix {
+  background-color: #f1f5f9;
+  background-image: linear-gradient(to right, rgba(148, 163, 184, 0.2) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(148, 163, 184, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+.dark .wallpaper-grid-matrix {
+  background-color: #141d24;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.wallpaper-honeycomb {
+  background-color: #fef7ee;
+  background-image: radial-gradient(#d97706 0.75px, transparent 0.75px);
+  background-size: 18px 18px;
+}
+.dark .wallpaper-honeycomb {
+  background-color: #1a1612;
+  background-image: radial-gradient(#b45309 0.75px, transparent 0.75px);
+  background-size: 18px 18px;
+}
+
+.wallpaper-warm-parchment {
+  background-color: #f4efe6;
+}
+.dark .wallpaper-warm-parchment {
+  background-color: #181716;
+}
+
+.wallpaper-sage-mint {
+  background-color: #e7f3ec;
+}
+.dark .wallpaper-sage-mint {
+  background-color: #0d1f18;
+}
+
+.wallpaper-soft-lavender {
+  background-color: #ede8f5;
+}
+.dark .wallpaper-soft-lavender {
+  background-color: #1a1625;
+}
+
+.wallpaper-ocean-sky {
+  background-color: #e3f0f7;
+}
+.dark .wallpaper-ocean-sky {
+  background-color: #0f1e29;
+}
+
+.wallpaper-midnight-dark {
+  background-color: #dbe2ea;
+}
+.dark .wallpaper-midnight-dark {
+  background-color: #070b0e;
+}

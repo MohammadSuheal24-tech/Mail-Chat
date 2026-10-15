@@ -1,0 +1,6 @@
+{
+  "name": "EchoChat - Real-Time Messenger",
+  "description": "Modern WhatsApp-style real-time messenger with email authentication, voice notes, media sharing, groups, read receipts, and privacy settings.",
+  "requestFramePermissions": ["CAMERA", "MICROPHONE"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

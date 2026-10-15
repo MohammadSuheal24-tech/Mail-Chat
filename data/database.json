@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "id": "usr_sarah",
+      "email": "sarah.jenkins@echochat.io",
+      "username": "sarah_j",
+      "displayName": "Sarah Jenkins",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&backgroundColor=b6e3f4",
+      "about": "Designing modern apps & enjoying good coffee ☕✨",
+      "passwordHash": "$2b$10$v3sGPpMpfptp8wYbVVZpT.5JBJCvGgIUIQeR2E9CJywbweB5sgMPa",
+      "isEmailVerified": true,
+      "lastSeen": "2026-10-15T07:52:04.166Z",
+      "isOnline": true,
+      "privacySettings": {
+        "lastSeenVisibility": "everyone",
+        "readReceipts": true
+      },
+      "blockedUserIds": [],
+      "createdAt": "2026-10-10T07:51:52.617Z"
+    },
+    {
+      "id": "usr_marcus",
+      "email": "marcus.vance@echochat.io",
+      "username": "marcus_v",
+      "displayName": "Marcus Vance",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&backgroundColor=c0aede",
+      "about": "Full-stack builder. Let's make real-time software!",
+      "passwordHash": "$2b$10$v3sGPpMpfptp8wYbVVZpT.5JBJCvGgIUIQeR2E9CJywbweB5sgMPa",
+      "isEmailVerified": true,
+      "lastSeen": "2026-10-15T06:51:52.617Z",
+      "isOnline": false,
+      "privacySettings": {
+        "lastSeenVisibility": "everyone",
+        "readReceipts": true
+      },
+      "blockedUserIds": [],
+      "createdAt": "2026-10-11T07:51:52.617Z"
+    },
+    {
+      "id": "usr_priya",
+      "email": "priya.patel@echochat.io",
+      "username": "priya_p",
+      "displayName": "Priya Patel",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya&backgroundColor=ffd5dc",
+      "about": "Product Lead. Fast messages, thoughtful work.",
+      "passwordHash": "$2b$10$v3sGPpMpfptp8wYbVVZpT.5JBJCvGgIUIQeR2E9CJywbweB5sgMPa",
+      "isEmailVerified": true,
+      "lastSeen": "2026-10-15T07:51:52.617Z",
+      "isOnline": true,
+      "privacySettings": {
+        "lastSeenVisibility": "everyone",
+        "readReceipts": true
+      },
+      "blockedUserIds": [],
+      "createdAt": "2026-10-12T07:51:52.617Z"
+    },
+    {
+      "id": "usr_alex",
+      "email": "alex.rivera@echochat.io",
+      "username": "alex_r",
+      "displayName": "Alex Rivera",
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex&backgroundColor=d1d4f9",
+      "about": "Available for quick questions and coffee chats",
+      "passwordHash": "$2b$10$v3sGPpMpfptp8wYbVVZpT.5JBJCvGgIUIQeR2E9CJywbweB5sgMPa",
+      "isEmailVerified": true,
+      "lastSeen": "2026-10-15T05:51:52.617Z",
+      "isOnline": false,
+      "privacySettings": {
+        "lastSeenVisibility": "everyone",
+        "readReceipts": true
+      },
+      "blockedUserIds": [],
+      "createdAt": "2026-10-13T07:51:52.620Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_group_echo",
+      "isGroup": true,
+      "name": "Echo Community & Tech",
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=EchoCommunity",
+      "description": "Welcome to EchoChat! Real-time group messaging without phone numbers.",
+      "creatorId": "usr_sarah",
+      "adminIds": [
+        "usr_sarah"
+      ],
+      "participantIds": [
+        "usr_sarah",
+        "usr_marcus",
+        "usr_priya",
+        "usr_alex"
+      ],
+      "createdAt": "2026-10-14T07:51:52.620Z",
+      "updatedAt": "2026-10-15T07:51:52.620Z",
+      "pinnedMessageIds": [
+        "msg_welcome_pinned"
+      ],
+      "lastMessage": {
+        "id": "msg_marcus_hello",
+        "conversationId": "conv_group_echo",
+        "senderId": "usr_marcus",
+        "senderName": "Marcus Vance",
+        "senderAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&backgroundColor=c0aede",
+        "text": "Double blue ticks, reply threads, and pinning all work seamlessly across browser tabs!",
+        "mediaType": "text",
+        "replyTo": {
+          "id": "msg_welcome_pinned",
+          "senderName": "Sarah Jenkins",
+          "text": "🎉 Welcome to EchoChat! Enjoy real-time chatting with email-only authentication..."
+        },
+        "deletedForUserIds": [],
+        "status": "read",
+        "readByUserIds": [
+          "usr_sarah"
+        ],
+        "reactions": [
+          {
+            "emoji": "🔥",
+            "userIds": [
+              "usr_alex"
+            ]
+          }
+        ],
+        "createdAt": "2026-10-15T07:21:52.620Z"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_welcome_pinned",
+      "conversationId": "conv_group_echo",
+      "senderId": "usr_sarah",
+      "senderName": "Sarah Jenkins",
+      "senderAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&backgroundColor=b6e3f4",
+      "text": "🎉 Welcome to EchoChat! Enjoy real-time chatting with email-only authentication, voice notes, media sharing, and read receipts.",
+      "mediaType": "text",
+      "isPinned": true,
+      "deletedForUserIds": [],
+      "status": "read",
+      "readByUserIds": [
+        "usr_sarah",
+        "usr_marcus",
+        "usr_priya",
+        "usr_alex"
+      ],
+      "reactions": [
+        {
+          "emoji": "👋",
+          "userIds": [
+            "usr_marcus",
+            "usr_priya"
+          ]
+        },
+        {
+          "emoji": "🚀",
+          "userIds": [
+            "usr_sarah",
+            "usr_alex"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-15T03:51:52.620Z"
+    },
+    {
+      "id": "msg_priya_voice",
+      "conversationId": "conv_group_echo",
+      "senderId": "usr_priya",
+      "senderName": "Priya Patel",
+      "senderAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya&backgroundColor=ffd5dc",
+      "text": "Voice note demo: check out the audio player and waveform below!",
+      "mediaType": "audio",
+      "mediaName": "voice_note_welcome.webm",
+      "duration": 6,
+      "deletedForUserIds": [],
+      "status": "read",
+      "readByUserIds": [
+        "usr_sarah",
+        "usr_marcus"
+      ],
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "userIds": [
+            "usr_sarah"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-15T05:51:52.620Z"
+    },
+    {
+      "id": "msg_marcus_hello",
+      "conversationId": "conv_group_echo",
+      "senderId": "usr_marcus",
+      "senderName": "Marcus Vance",
+      "senderAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&backgroundColor=c0aede",
+      "text": "Double blue ticks, reply threads, and pinning all work seamlessly across browser tabs!",
+      "mediaType": "text",
+      "replyTo": {
+        "id": "msg_welcome_pinned",
+        "senderName": "Sarah Jenkins",
+        "text": "🎉 Welcome to EchoChat! Enjoy real-time chatting with email-only authentication..."
+      },
+      "deletedForUserIds": [],
+      "status": "read",
+      "readByUserIds": [
+        "usr_sarah"
+      ],
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "userIds": [
+            "usr_alex"
+          ]
+        }
+      ],
+      "createdAt": "2026-10-15T07:21:52.620Z"
+    }
+  ],
+  "emails": [],
+  "reports": []
+}
